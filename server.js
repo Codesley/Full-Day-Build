@@ -27,7 +27,7 @@ app.get("/about", (req, res) => {
   res.json(about);
 });
 
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 // turn on the server listener
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
