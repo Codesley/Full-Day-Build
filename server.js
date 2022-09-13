@@ -1,0 +1,33 @@
+// Import dependencies
+const express = require("express");
+const cors = require("cors");
+
+// import json files
+const projects = require("./projects.json");
+const about = require("./about.json");
+
+// create app object
+const app = express();
+
+// middleware
+app.use(cors());
+
+// home route
+app.get("/", (req, res) => {
+  res.send("Hello world");
+});
+
+// route for retrieving projects
+app.get("/projects", (req, res) => {
+  res.json(projects);
+});
+
+// route for retrieving about info
+app.get("/about", (req, res) => {
+  res.json(about);
+});
+
+const PORT = 4000;
+
+// turn on the server listener
+app.listen(PORT, () => console.log(`Listening on port ${PORT}`));

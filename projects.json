@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Project 1: Mapsley",
+    "live": "https://codesley.github.io/SEI-Project-1-Mapsley/",
+    "git": "https://github.com/Codesley/SEI-Project-1-Mapsley",
+    "image": "https://user-images.githubusercontent.com/107660606/184269205-d8b18655-46bb-45b8-b519-cd0227d6751f.png"
+  },
+  {
+    "name": "Project 2: Holler",
+    "live": "https://project2-holler.herokuapp.com/",
+    "git": "https://github.com/ShahryarAbbasi/Project_2_Holler",
+    "image": "https://user-images.githubusercontent.com/107660606/188229918-a52b9f39-e27e-45b7-9e06-e9e0048723f1.png"
+  }
+]
